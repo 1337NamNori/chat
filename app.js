@@ -50,23 +50,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-//socket.io 
-let socket_io = require('socket.io');
-let io = socket_io();
-let socketAPI = {};
-
-
-socketAPI.io = io;
-
-
-// io.on('connection', async (socket) => {
-//     console.log("connected! ID= ", socket.id)
-//     socket.on('login', (username) => {
-//         console.log('buoc 5: io.js nhan username: ' + username)
-//     })
-// })
-
-
 
 
 
